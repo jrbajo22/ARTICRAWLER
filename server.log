@@ -1,0 +1,232 @@
+
+> rag-ai-articles@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.50.33:3000
+- Environments: .env.local, .env
+✓ Ready in 550ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\justi\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\justi\Desktop\RAG AI articles\package-lock.json
+
+
+ GET / 200 in 411ms (next.js: 198ms, application-code: 213ms)
+ GET / 200 in 65ms (next.js: 7ms, application-code: 58ms)
+ POST /api/chat 200 in 30.4s (next.js: 86ms, application-code: 30.3s)
+ POST /api/chat 200 in 535ms (next.js: 4ms, application-code: 531ms)
+[browser] Encountered two children with the same key, `1782498468708`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `1782498468708`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `1782498468708`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ POST /api/chat 200 in 4.0s (next.js: 5ms, application-code: 4.0s)
+[browser] Encountered two children with the same key, `1782498468708`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+[browser] Encountered two children with the same key, `1782498549002`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 
+ GET / 200 in 59ms (next.js: 3ms, application-code: 56ms)
+ POST /api/chat 200 in 2.8s (next.js: 2ms, application-code: 2.8s)
+ GET / 200 in 138ms (next.js: 6ms, application-code: 133ms)
+✓ Compiled in 383ms
+ GET / 200 in 494ms (next.js: 361ms, application-code: 133ms)
+ GET / 200 in 52ms (next.js: 6ms, application-code: 46ms)
+ GET / 200 in 187ms (next.js: 42ms, application-code: 145ms)
+ GET / 200 in 86ms (next.js: 4ms, application-code: 82ms)
+ GET / 200 in 58ms (next.js: 5ms, application-code: 53ms)
+ GET / 200 in 58ms (next.js: 24ms, application-code: 33ms)
+ GET / 200 in 216ms (next.js: 45ms, application-code: 171ms)
+ GET / 200 in 124ms (next.js: 3ms, application-code: 121ms)
+ GET / 200 in 123ms (next.js: 4ms, application-code: 119ms)
+ GET / 200 in 123ms (next.js: 33ms, application-code: 90ms)
+ GET / 200 in 124ms (next.js: 51ms, application-code: 73ms)
+ GET / 200 in 125ms (next.js: 71ms, application-code: 55ms)
+ GET / 200 in 102ms (next.js: 5ms, application-code: 97ms)
+ GET / 200 in 78ms (next.js: 8ms, application-code: 71ms)
+ GET / 200 in 51ms (next.js: 3ms, application-code: 48ms)
+ GET / 200 in 52ms (next.js: 26ms, application-code: 26ms)
+ GET / 200 in 102ms (next.js: 4ms, application-code: 98ms)
+Error in test search: ReferenceError: getAll is not defined
+    at search (lib\db.ts:5:20)
+    at GET (app\api\test-search\route.ts:11:33)
+  3 |  */
+  4 | export async function search(query: string): Promise<Article[]> {
+> 5 |   const articles = await getAll();
+    |                    ^
+  6 |   // Split query into words, remove non-alphanumeric, lowercase, and filter out short words
+  7 |   const queryWords = query
+  8 |     .toLowerCase()
+ GET /api/test-search?q=What%20is%20the%20latest%20research%20on%20transformers%3F 500 in 300ms (next.js: 159ms, application-code: 141ms)
+ GET / 200 in 227ms (next.js: 43ms, application-code: 183ms)
+ GET / 200 in 132ms (next.js: 4ms, application-code: 128ms)
+ GET / 200 in 110ms (next.js: 5ms, application-code: 105ms)
+ GET / 200 in 111ms (next.js: 24ms, application-code: 87ms)
+ GET / 200 in 110ms (next.js: 63ms, application-code: 48ms)
+ GET / 200 in 112ms (next.js: 43ms, application-code: 69ms)
+ GET / 200 in 48ms (next.js: 3ms, application-code: 45ms)
+ GET / 200 in 26ms (next.js: 6ms, application-code: 20ms)
+ GET / 200 in 110ms (next.js: 35ms, application-code: 75ms)
+ GET / 200 in 41ms (next.js: 3ms, application-code: 37ms)
+ GET / 200 in 48ms (next.js: 8ms, application-code: 40ms)
+ GET / 200 in 107ms (next.js: 3ms, application-code: 104ms)
+ GET /api/test-search?q=What%20is%20the%20latest%20research%20on%20transformers%3F 200 in 66ms (next.js: 50ms, application-code: 16ms)
+ GET / 200 in 56ms (next.js: 3ms, application-code: 53ms)
+ POST /api/chat 400 in 57ms (next.js: 49ms, application-code: 7ms)
+ GET / 200 in 60ms (next.js: 3ms, application-code: 57ms)
+ POST /api/chat 200 in 120s (next.js: 1849µs, application-code: 120s)
+ GET / 200 in 62ms (next.js: 4ms, application-code: 57ms)
+ POST /api/chat 200 in 30.0s (next.js: 1742µs, application-code: 30.0s)
+ GET / 200 in 63ms (next.js: 3ms, application-code: 60ms)
+ GET / 200 in 87ms (next.js: 5ms, application-code: 82ms)
+ POST /api/chat 200 in 60s (next.js: 2ms, application-code: 60s)
+ GET / 200 in 57ms (next.js: 3ms, application-code: 54ms)
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+ POST /api/chat 200 in 90s (next.js: 1551µs, application-code: 90s)
+ GET / 200 in 71ms (next.js: 4ms, application-code: 67ms)
+ POST /api/chat 200 in 30.0s (next.js: 2ms, application-code: 30.0s)
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+✓ Compiled in 37ms
+ GET / 200 in 198ms (next.js: 106ms, application-code: 92ms)
+ GET / 200 in 104ms (next.js: 3ms, application-code: 101ms)
+ GET / 200 in 37ms (next.js: 2ms, application-code: 35ms)
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+ GET / 200 in 64ms (next.js: 4ms, application-code: 59ms)
+ POST /api/chat 200 in 10.0s (next.js: 51ms, application-code: 10.0s)
+ GET / 200 in 58ms (next.js: 4ms, application-code: 54ms)
+ POST /api/ingest 200 in 890ms (next.js: 72ms, application-code: 819ms)
+✓ Compiled in 30ms
+ GET / 200 in 188ms (next.js: 108ms, application-code: 80ms)
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+ GET / 200 in 311ms (next.js: 140ms, application-code: 172ms)
+ GET / 200 in 130ms (next.js: 3ms, application-code: 127ms)
+ GET / 200 in 181ms (next.js: 40ms, application-code: 141ms)
+ GET / 200 in 184ms (next.js: 4ms, application-code: 179ms)
+ GET / 200 in 184ms (next.js: 22ms, application-code: 162ms)
+ GET / 200 in 190ms (next.js: 61ms, application-code: 129ms)
+ GET / 200 in 193ms (next.js: 6ms, application-code: 187ms)
+ GET / 200 in 159ms (next.js: 22ms, application-code: 137ms)
+ GET / 200 in 100ms (next.js: 8ms, application-code: 93ms)
+ GET / 200 in 100ms (next.js: 43ms, application-code: 57ms)
+ GET / 200 in 61ms (next.js: 30ms, application-code: 31ms)
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+✓ Compiled in 24ms
+ GET / 200 in 197ms (next.js: 122ms, application-code: 75ms)
+ GET / 200 in 115ms (next.js: 3ms, application-code: 112ms)
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Uncaught Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
++                         className="h-full"
+-                         className="h-full dark"
+                        >
+                          ...
+                            <header className="bg-white d...">
+                              <div className="container ...">
+                                <h1>
+                                <button id="theme-toggle" className="p-2 rounde..." aria-label="Toggle dar...">
+                                  <span id="theme-icon">
++                                   🌙
+-                                   ☀️
+                  ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at span (<anonymous>)
+    at RootLayout (app\layout.tsx:29:17)
+  27 |                 aria-label="Toggle dark mode"
+  28 |               >
+> 29 |                 <span id="theme-icon">🌙</span>
+     |                 ^
+  30 |               </button>
+  31 |             </div>
+  32 |           </header>
+✓ Compiled in 429ms
+ GET / 200 in 341ms (next.js: 94ms, application-code: 247ms)
+ GET / 200 in 193ms (next.js: 9ms, application-code: 183ms)
+ GET / 200 in 153ms (next.js: 39ms, application-code: 115ms)
+ GET / 200 in 155ms (next.js: 8ms, application-code: 147ms)
+ GET / 200 in 155ms (next.js: 62ms, application-code: 93ms)
+ GET / 200 in 182ms (next.js: 88ms, application-code: 94ms)
+ GET / 200 in 164ms (next.js: 5ms, application-code: 159ms)
+ GET / 200 in 138ms (next.js: 7ms, application-code: 131ms)
+ GET / 200 in 107ms (next.js: 5ms, application-code: 102ms)
+ GET / 200 in 107ms (next.js: 27ms, application-code: 80ms)
+ GET / 200 in 60ms (next.js: 27ms, application-code: 33ms)
+ GET / 200 in 62ms (next.js: 5ms, application-code: 57ms)
+ GET / 200 in 238ms (next.js: 85ms, application-code: 153ms)
+ GET / 200 in 76ms (next.js: 4ms, application-code: 71ms)
+ GET / 200 in 31ms (next.js: 5ms, application-code: 26ms)
+ GET / 200 in 78ms (next.js: 2ms, application-code: 76ms)
+[?25h

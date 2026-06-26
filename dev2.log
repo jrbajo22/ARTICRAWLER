@@ -1,0 +1,28 @@
+
+> rag-ai-articles@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3002
+- Network:       http://192.168.50.33:3002
+✓ Ready in 554ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\justi\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\justi\Desktop\RAG AI articles\package-lock.json
+
+
+Primary NVIDIA endpoint failed, trying fallback...
+Error in chat route: Error: NVIDIA API error: 404 {"status":404,"title":"Not Found"}
+    at POST (app\api\chat\route.ts:87:15)
+  85 |       if (!fallbackResponse.ok) {
+  86 |         const errorData = await fallbackResponse.text();
+> 87 |         throw new Error(`NVIDIA API error: ${fallbackResponse.status} ${errorData}`);
+     |               ^
+  88 |       }
+  89 |       data = await fallbackResponse.json();
+  90 |     } else {
+ POST /api/chat 500 in 839ms (next.js: 211ms, application-code: 628ms)
+[?25h
